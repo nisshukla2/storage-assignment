@@ -1,0 +1,72 @@
+body 
+{
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  background-color: #e6e9f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px; 
+  margin: 0;
+}
+
+.container 
+{
+  text-align: center;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+input 
+{
+  padding: 12px;
+  width: 60%;
+  margin: 20px 0;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #333;
+}
+
+.buttons button 
+{
+  padding: 10px 24px;
+  margin: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#save-btn 
+{
+  background-color: #4a60a1; 
+  color: white;
+}
+
+#save-btn:hover 
+{
+  background-color: #3b4f87;
+}
+
+#clear-btn 
+{
+  background-color: #e25a4f;  
+  color: white;
+}
+
+#clear-btn:hover 
+{
+  background-color: #c7473e;
+}
+
+#display-name 
+{
+  font-size: 20px;
+  margin-top: 20px;
+  color: #2f3640; 
+  font-weight: bold;
+}
